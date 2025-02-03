@@ -88,7 +88,6 @@ stats_ax = fig.add_axes([0.1, 0.1, 0.6, 0.1])  # Позиция для стат�
 stats_ax.axis('off')  # Скрываем оси
 stats_box = stats_ax.text(0, 1, text_stats,
                           fontsize=10, verticalalignment='top')
-
 bnext.on_clicked(on_click)
 
 plt.show()
